@@ -7,9 +7,9 @@ page = requests.get(url)
 
 if page.status_code == 200:
     soup = BeautifulSoup(page.content, 'html.parser')
-    results = soup.find_all(string=lambda text: 'specific word' in text)
+    results = soup.find_all(string=lambda text: word in text)
 
     for results in results:
-        print(result)
+        print(results)
     else:
         print('Error')    
