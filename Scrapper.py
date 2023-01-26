@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
-url = 'https://www.hotnews.ro/'
-word = 'Auditori'
+url = 'https://stirileprotv.ro/'
+word = input("Enter your keyword -->" )
 
 page = requests.get(url)
 
