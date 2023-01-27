@@ -1,0 +1,5 @@
+-search on specific adress ✅
+-search after a specific word ✅
+-append results to a list✅
+-create a user interface 
+-make a database wich contain results
